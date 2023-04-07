@@ -14,6 +14,7 @@ import projectAPILetsFood from '../../public/images/projects/letsfood_thumbnail.
 import projectOnePiece from '../../public/images/projects/one_piece_thumbnail.gif';
 import projectConan from '../../public/images/projects/conan_thumbnail.gif';
 import projectWFMG from '../../public/images/projects/wfmg_thumbnail.png';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -23,8 +24,10 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
          <article
             className=" max-w-[1280px] w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative rounded-br-2xl dark:bg-dark dark:border-light
          lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
-            <div className="absolute top-0 -right-3 -z-10 w-[100.8%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light
-            xs:-right-2 sm:h-[102%] md:w-[101.7%] sm:w-[102.2%] xs:w-[101.8%] xs:rounded-[1.5rem]" />
+            <div
+               className="absolute top-0 -right-3 -z-10 w-[100.8%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light
+            xs:-right-2 sm:h-[102%] md:w-[101.7%] sm:w-[102.2%] xs:w-[101.8%] xs:rounded-[1.5rem]"
+            />
             <Link
                href={link}
                target="_blank"
@@ -78,8 +81,10 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 const Project = ({ title, type, img, link, github }) => {
    return (
       <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light xs:p-4">
-         <div className="absolute top-0 -right-3 -z-10 w-[101.5%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
-         md:-right-2 md:w-[103.2%] sm:w-[101.3%] xs:h-[102%] xs:rounded-[1.5rem]" />
+         <div
+            className="absolute top-0 -right-3 -z-10 w-[101.5%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
+         md:-right-2 md:w-[103.2%] sm:w-[101.3%] xs:h-[102%] xs:rounded-[1.5rem]"
+         />
          <Link
             href={link}
             target="_blank"
@@ -103,7 +108,9 @@ const Project = ({ title, type, img, link, github }) => {
                href={link}
                target="_blank"
                className="hover:underline underline-offset-2">
-               <h2 className="w-full text-left text-2xl font-bold lg:text-2xl">{title}</h2>
+               <h2 className="w-full text-left text-2xl font-bold lg:text-2xl">
+                  {title}
+               </h2>
             </Link>
 
             {/* <p className="my-2 font-medium text-dark">{summary}</p> */}
@@ -132,7 +139,34 @@ const projects = () => {
          <Head>
             <title> ttd4t | Projects Page</title>
             <meta name="description" content="Some projects made by me" />
+
+            {/* <!-- Open Graph / Facebook --> */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.datdev.click/" />
+            <meta property="og:title" content="ttd4t | Home Page" />
+            <meta
+               property="og:description"
+               content="Write something about my self :)"
+            />
+            <meta
+               property="og:image"
+               content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
+            />
+
+            {/* <!-- Twitter --> */}
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content="https://www.datdev.click/" />
+            <meta property="twitter:title" content="ttd4t | Home Page" />
+            <meta
+               property="twitter:description"
+               content="Write something about my self :)"
+            />
+            <meta
+               property="twitter:image"
+               content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
+            />
          </Head>
+         <TransitionEffect />
          <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
             <Layout className="pt-16 flex flex-col justify-center items-center">
                <AnimatedText

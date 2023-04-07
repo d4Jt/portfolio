@@ -10,6 +10,7 @@ import beatingHeart from '../../public/images/articles/beating-heart.png';
 import tabsUI from '../../public/images/articles/tabs-ui.png';
 import musicPlayer from '../../public/images/articles/music-player.png';
 import validationForm from '../../public/images/articles/validation-form.png';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 const MovingImg = ({ title, img, link }) => {
@@ -105,8 +106,35 @@ const articles = () => {
       <>
          <Head>
             <title> ttd4t | Articles Page</title>
-            <meta name="description" content="Some information about me" />
+            <meta name="description" content="Some articles made by me" />
+
+            {/* <!-- Open Graph / Facebook --> */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.datdev.click/" />
+            <meta property="og:title" content="ttd4t | Home Page" />
+            <meta
+               property="og:description"
+               content="Write something about my self :)"
+            />
+            <meta
+               property="og:image"
+               content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
+            />
+
+            {/* <!-- Twitter --> */}
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content="https://www.datdev.click/" />
+            <meta property="twitter:title" content="ttd4t | Home Page" />
+            <meta
+               property="twitter:description"
+               content="Write something about my self :)"
+            />
+            <meta
+               property="twitter:image"
+               content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
+            />
          </Head>
+         <TransitionEffect />
          <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
             <Layout className="pt-16">
                <AnimatedText

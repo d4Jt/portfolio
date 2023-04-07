@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { LinkArrow } from '@/components/Icon';
 import HireMe from '@/components/HireMe';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
+import TransitionEffect from '@/components/TransitionEffect';
 
 export default function Home() {
    return (
@@ -45,6 +46,7 @@ export default function Home() {
                content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
             />
          </Head>
+         <TransitionEffect />
          <main
             className="
          md:max-h-full lg:min-h-[79.8vh] xl:max-h-[75vh]
