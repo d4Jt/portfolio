@@ -212,7 +212,7 @@ bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32
                      onClick={() =>
                         setDarkMode(darkMode === 'dark' ? 'light' : 'dark')
                      }
-                     className={`ml-3 flex items-center justify-center rounded-full p-1 ${
+                     className={`ml-3 xs:w-[30px] flex items-center justify-center rounded-full p-1 ${
                         darkMode === 'light'
                            ? 'bg-dark text-light'
                            : 'bg-light text-dark'
