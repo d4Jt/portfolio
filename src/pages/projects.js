@@ -181,7 +181,7 @@ const projects = () => {
                         img={projectDiscord}
                         summary="The project is created from discord.js to create a bot with many functions used in Discord (the most commonly used function is playing music). This project is quite popular among Discord users."
                         link="https://discord.com/api/oauth2/authorize?client_id=903232960415805510&permissions=8&scope=bot%20applications.commands"
-                        type="Featured Project (use for Discord)"
+                        type="Featured Project Discord"
                         github="https://github.com/ttd4t/discord-bot-v14"
                      />
                   </div>
@@ -211,11 +211,11 @@ const projects = () => {
 
                   <div className="col-span-8">
                      <FeaturedProject
-                        title="API for website Ebook"
+                        title="Back-End website Ebook"
                         img={projectAPIEbook}
                         summary={`The project is created from Typescript along with NodeJS to create an API for a book-selling website. The project uses the MVC and client-server model. It was carried out by two people.`}
                         link="https://ban-sach-truc-tuyen.vercel.app"
-                        type="Featured Project API"
+                        type="Featured Project BE"
                         github="https://github.com/ttd4t/api-web-ban-sach"
                      />
                   </div>
@@ -231,7 +231,7 @@ const projects = () => {
                   </div>
                   <div className="col-span-4 sm:col-span-8 flex justify-center">
                      <Project
-                        title="API website Let's food"
+                        title="Back-End website Let's food"
                         img={projectAPILetsFood}
                         link="https://letsfood.click/"
                         type="Featured Project"
@@ -251,11 +251,11 @@ const projects = () => {
                   </div>
                   <div className="col-span-8">
                      <FeaturedProject
-                        title="API for WFMG website"
+                        title="Back-End WFMG website"
                         img={projectWFMG}
                         summary={`"This project was created to assist users in managing personal tasks. It utilizes the MVC model and a NodeJS-ReactJS client-server architecture. This project is built using NodeJS, ExpressJS, MongoDB, and ReactJS, collectively referred to as the MERN stack.`}
                         link="https://wfmg.vercel.app"
-                        type="Featured Project API"
+                        type="Featured Project BE"
                         github="https://github.com/ttd4t/api-workflow-management"
                      />
                   </div>
