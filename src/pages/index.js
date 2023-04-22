@@ -82,7 +82,7 @@ export default function Home() {
                            Resume <LinkArrow className={'w-6 xs:w-[18px] ml-1'} />
                         </Link>
                         <Link
-                           href="mailto:jsmsj04@gmail.com"
+                           href="mailto:ttdat.contact@gmail.com"
                            target={'_blank'}
                            className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base">
                            Contact
