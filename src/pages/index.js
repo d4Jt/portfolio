@@ -13,8 +13,8 @@ export default function Home() {
    return (
       <>
          <Head>
-            <title>ttd4t | Home Page</title>
-            <meta name="title" content="ttd4t | Home Page" />
+            <title>d4Jt | Home Page</title>
+            <meta name="title" content="d4Jt | Home Page" />
             <meta
                name="description"
                content="Write something about my self :)"
@@ -23,7 +23,7 @@ export default function Home() {
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.datdev.click/" />
-            <meta property="og:title" content="ttd4t | Home Page" />
+            <meta property="og:title" content="d4Jt | Home Page" />
             <meta
                property="og:description"
                content="Write something about my self :)"
@@ -36,7 +36,7 @@ export default function Home() {
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://www.datdev.click/" />
-            <meta property="twitter:title" content="ttd4t | Home Page" />
+            <meta property="twitter:title" content="d4Jt | Home Page" />
             <meta
                property="twitter:description"
                content="Write something about my self :)"
@@ -58,7 +58,7 @@ export default function Home() {
                         src={profilePic}
                         priority
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-                        alt="ttd4t"
+                        alt="d4Jt"
                         className="ml-12 w-[63%] h-auto rounded-[50%] lg:hidden md:inline-block md:w-full xl:w-[77%] md:ml-0"
                      />
                   </div>
@@ -79,7 +79,8 @@ export default function Home() {
                            target={'_blank'}
                            className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-primary hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-primary hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
                            download={true}>
-                           Resume <LinkArrow className={'w-6 xs:w-[18px] ml-1'} />
+                           Resume{' '}
+                           <LinkArrow className={'w-6 xs:w-[18px] ml-1'} />
                         </Link>
                         <Link
                            href="mailto:ttdat.contact@gmail.com"
@@ -93,7 +94,7 @@ export default function Home() {
             </Layout>
             <HireMe />
             <div className="absolute right-8 bottom-24 inline-block w-24 md:hidden">
-               <Image src={lightBulb} alt="ttd4t" className="w-full h-auto" />
+               <Image src={lightBulb} alt="d4Jt" className="w-full h-auto" />
             </div>
          </main>
       </>

@@ -106,7 +106,7 @@ const NavBar = () => {
                   <DiscordIcon />
                </motion.a>
                <motion.a
-                  href="https://github.com/ttd4t"
+                  href="https://github.com/d4Jt"
                   target={'_blank'}
                   whileHover={{ y: -2 }}
                   whileTap={{ scale: 0.9 }}
@@ -192,7 +192,7 @@ bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32
                      <DiscordIcon />
                   </motion.a>
                   <motion.a
-                     href="https://github.com/ttd4t"
+                     href="https://github.com/d4Jt"
                      target={'_blank'}
                      whileHover={{ y: -2 }}
                      whileTap={{ scale: 0.9 }}

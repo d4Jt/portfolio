@@ -38,13 +38,13 @@ const about = () => {
    return (
       <>
          <Head>
-            <title> ttd4t | About Page</title>
+            <title> d4Jt | About Page</title>
             <meta name="description" content="Some information about me" />
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.datdev.click/" />
-            <meta property="og:title" content="ttd4t | Home Page" />
+            <meta property="og:title" content="d4Jt | Home Page" />
             <meta
                property="og:description"
                content="Write something about my self :)"
@@ -57,7 +57,7 @@ const about = () => {
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://www.datdev.click/" />
-            <meta property="twitter:title" content="ttd4t | Home Page" />
+            <meta property="twitter:title" content="d4Jt | Home Page" />
             <meta
                property="twitter:description"
                content="Write something about my self :)"
@@ -81,7 +81,7 @@ const about = () => {
                      </h2>
                      <p className="font-medium">
                         Hello, I&apos;m <strong>Dat</strong>, my nickname is{' '}
-                        <strong>ttd4t</strong>, and I&apos;m a Back-End
+                        <strong>d4Jt</strong>, and I&apos;m a Back-End
                         developer. Why did I choose Back-End? Well, I really
                         enjoy working with logic, and logic helps to develop our
                         brains and handle tasks more efficiently. Back-End is
@@ -111,7 +111,7 @@ const about = () => {
                         src={profilePic}
                         priority
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        alt="ttd4t"
+                        alt="d4Jt"
                         className="w-full h-auto rounded-2xl "
                      />
                   </div>

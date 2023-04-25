@@ -105,13 +105,13 @@ const articles = () => {
    return (
       <>
          <Head>
-            <title> ttd4t | Articles Page</title>
+            <title> d4Jt | Articles Page</title>
             <meta name="description" content="Some articles made by me" />
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.datdev.click/" />
-            <meta property="og:title" content="ttd4t | Home Page" />
+            <meta property="og:title" content="d4Jt | Home Page" />
             <meta
                property="og:description"
                content="Write something about my self :)"
@@ -124,7 +124,7 @@ const articles = () => {
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://www.datdev.click/" />
-            <meta property="twitter:title" content="ttd4t | Home Page" />
+            <meta property="twitter:title" content="d4Jt | Home Page" />
             <meta
                property="twitter:description"
                content="Write something about my self :)"
@@ -146,14 +146,14 @@ const articles = () => {
                      title="Beating heart"
                      summary="Create a beating heart using CSS and HTML to show your love for someone."
                      time="8/11/2022"
-                     link="https://github.com/ttd4t/beating-heart"
+                     link="https://github.com/d4Jt/beating-heart"
                      img={beatingHeart}
                   />
                   <FeaturedArticles
                      title="Tabs UI"
                      summary="Create a beating heart using CSS and HTML to show your love for someone."
                      time="2/6/2022"
-                     link="https://github.com/ttd4t/tabsUI"
+                     link="https://github.com/d4Jt/tabsUI"
                      img={tabsUI}
                   />
                </ul>
@@ -166,25 +166,25 @@ const articles = () => {
                      title="Create a beating heart to show your love for someone."
                      img={beatingHeart}
                      date="8/11/2022"
-                     link="https://github.com/ttd4t/beating-heart"
+                     link="https://github.com/d4Jt/beating-heart"
                   />
                   <Article
                      title="Ceate a validation form using HTML, CSS and Javascript."
                      img={validationForm}
                      date="7/6/2022"
-                     link="https://github.com/ttd4t/learnFormValidation2"
+                     link="https://github.com/d4Jt/learnFormValidation2"
                   />
                   <Article
                      title="Create a music player using HTML, CSS and Javascript to learn Javascript."
                      img={musicPlayer}
                      date="5/6/2022"
-                     link="https://github.com/ttd4t/music-player"
+                     link="https://github.com/d4Jt/music-player"
                   />
                   <Article
                      title="Create tabs UI using HTML, CSS and Javascript."
                      img={tabsUI}
                      date="2/6/2022"
-                     link="https://github.com/ttd4t/tabsUI"
+                     link="https://github.com/d4Jt/tabsUI"
                   />
                </ul>
             </Layout>
