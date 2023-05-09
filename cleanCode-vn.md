@@ -1,3 +1,18 @@
+**Original Repository**: [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+
+## Mục lục
+  1. [Biến](#biến)
+  2. [Hàm](#hàm)
+  4. [Đối tượng và Cấu trúc dữ liệu](#Đối-tượng-và-cấu-trúc-dữ-liệu)
+  5. [Lớp](#lớp)
+  6. [SOLID](#solid)
+  7. [Testing](#testing)
+  8. [Xử lí đồng thời](#xử-lí-đồng-thời)
+  9. [Xử lí lỗi](#xử-lí-lỗi)
+  10. [Định dạng](#Định-dạng)
+  11. [Viết chú thích](#viết-chú-thích)
+  12. [Các ngôn ngữ khác](#các-ngôn-ngữ-khác)
+
 ## **Biến**
 ### Sử dụng tên biến có nghĩa và dễ phát âm
 **Không tốt:**
@@ -1940,6 +1955,3 @@ const actions = function() {
 };
 ```
 **[⬆ về đầu trang](#mục-lục)**
-
-**Source**: [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
-
