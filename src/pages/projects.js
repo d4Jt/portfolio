@@ -192,7 +192,7 @@ const projects = () => {
                      <Project
                         title="API XSMB"
                         img={projectAPIXSMB}
-                        link="https://api-xsmb.cyclic.app/v1"
+                        link="https://api-xsmb.cyclic.app/api/v1"
                         type="Featured Project API"
                         github="https://github.com/d4Jt/api-xsmb-today"
                      />
