@@ -30,7 +30,7 @@ export default function Home() {
             />
             <meta
                property="og:image"
-               content="https://raw.githubusercontent.com/d4Jt/portfolio/main/public/images/profile/avt-pic-1.jpg?token=GHSAT0AAAAAACFKUVZUTUDIZANJOTTHQ6N6ZFZJRWA"
+               content="https://media.discordapp.net/attachments/1047885084402925642/1092568585462878318/z4015040176340_3d64de1186246b6f5b892cd5d6da21a7.jpg?width=351&height=468"
             />
 
             {/* <!-- Twitter --> */}
@@ -43,7 +43,7 @@ export default function Home() {
             />
             <meta
                property="twitter:image"
-               content="https://raw.githubusercontent.com/d4Jt/portfolio/main/public/images/profile/avt-pic-1.jpg?token=GHSAT0AAAAAACFKUVZUTUDIZANJOTTHQ6N6ZFZJRWA"
+               content="https://media.discordapp.net/attachments/1047885084402925642/1092568585462878318/z4015040176340_3d64de1186246b6f5b892cd5d6da21a7.jpg?width=351&height=468"
             />
          </Head>
          <TransitionEffect />
