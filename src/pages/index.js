@@ -20,7 +20,7 @@ export default function Home() {
                content="Write something about my self :)"
             />
 
-            {/* <!-- Open Graph / Facebook --> */}
+            {/* <!-- Open Graph | Facebook | Zalo --> */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.datdev.click/" />
             <meta property="og:title" content="d4Jt | Home Page" />
@@ -30,7 +30,7 @@ export default function Home() {
             />
             <meta
                property="og:image"
-               content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
+               content="https://raw.githubusercontent.com/d4Jt/portfolio/main/public/images/profile/avt-pic-1.jpg?token=GHSAT0AAAAAACFKUVZUTUDIZANJOTTHQ6N6ZFZJRWA"
             />
 
             {/* <!-- Twitter --> */}
@@ -43,7 +43,7 @@ export default function Home() {
             />
             <meta
                property="twitter:image"
-               content="https://www.datdev.click/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favt-pic-1.9b03c7d0.jpg&w=1920&q=75"
+               content="https://raw.githubusercontent.com/d4Jt/portfolio/main/public/images/profile/avt-pic-1.jpg?token=GHSAT0AAAAAACFKUVZUTUDIZANJOTTHQ6N6ZFZJRWA"
             />
          </Head>
          <TransitionEffect />
