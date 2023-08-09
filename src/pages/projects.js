@@ -143,7 +143,7 @@ const projects = () => {
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.datdev.click/" />
-            <meta property="og:title" content="d4Jt | Home Page" />
+            <meta property="og:title" content="d4Jt | Projects Page" />
             <meta
                property="og:description"
                content="Write something about my self :)"
@@ -156,7 +156,7 @@ const projects = () => {
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://www.datdev.click/" />
-            <meta property="twitter:title" content="d4Jt | Home Page" />
+            <meta property="twitter:title" content="d4Jt | Projects Page" />
             <meta
                property="twitter:description"
                content="Write something about my self :)"
@@ -245,18 +245,8 @@ const projects = () => {
                         img={projectWFMG}
                         summary={`"This project was created to assist users in managing personal tasks. It utilizes the MVC model and a NodeJS-ReactJS client-server architecture. This project is built using NodeJS, ExpressJS, MongoDB, and ReactJS, collectively referred to as the MERN stack.`}
                         link="https://wfmg.vercel.app"
-                        type="Featured Project Web"
-                        github="https://github.com/d4Jt/web-workflow-management"
-                     />
-                  </div>
-                  <div className="col-span-8">
-                     <FeaturedProject
-                        title="Back-End WFMG website"
-                        img={projectWFMG}
-                        summary={`"This project was created to assist users in managing personal tasks. It utilizes the MVC model and a NodeJS-ReactJS client-server architecture. This project is built using NodeJS, ExpressJS, MongoDB, and ReactJS, collectively referred to as the MERN stack.`}
-                        link="https://wfmg.vercel.app"
-                        type="Featured Project BE"
-                        github="https://github.com/d4Jt/api-workflow-management"
+                        type="Featured Project"
+                        github="https://github.com/d4Jt/WFMG"
                      />
                   </div>
                </div>
